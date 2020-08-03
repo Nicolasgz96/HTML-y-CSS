@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="estilos.css" type="text/css">
+    
+  
+</head>
+<h2 class="red-text">CatPhotoApp</h2>
+<main>
+  <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a> <!--con un especio en el medio se le dan dos calses a un mismo elemento-->
+  <div class="silver-background">
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+</div>
+  <form id="cat-photo-form" action="/submit-cat-photo">
+    <label for="indoor"><input value="indoor" id="indoor" type="radio" name="indoor-outdoor"> Indoor</label>
+    <label for="outdoor"><input value="outdoor" id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label for="1"><input value="loving" type="checkbox" name="personality" id="1">Loving</label><br>
+    <label for="2"><input value="lazy" type="checkbox" name="personality" id="2">Lazy</label><br>
+    <label for="3"><input value="energetic" type="checkbox" name="personality" id="3">Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+
+
+</body>
+</html>

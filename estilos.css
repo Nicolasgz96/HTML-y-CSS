@@ -1,0 +1,36 @@
+.red-text {
+    color: red;
+  }
+
+  p {
+    font-size: 16px; /*tamaño de letra*/
+    font-family: monospace;
+  }
+
+  h2 {
+    font-family: Lobster; /*estilo de letra*/
+  }
+
+  .smaller-image {
+    width: 100px; /*tamaño de la imagen*/
+  }
+
+  .thick-green-border {
+    border-style: solid;/*estilo de borde, hay mas estilos*/
+    border-width: 10px;/*gruesor de bordes*/
+    border-color: green;/*color de bordes*/
+    border-radius: 10px; /*bordes redondos, tambn podes ponerlo en % y hacerlo redondo ej: 50%*/
+  }
+
+  .silver-background {
+    background-color: silver;
+  }
+
+  #cat-photo-form {
+    background-color: green;
+  }
+
+  
+  [type='checkbox'] /*se usa para darle margen o padding a elementos de algun typo*/ { 
+    margin: 10px 0px 15px 0px; /*va en sentido horario (arriba, derecha, abajo, izquierda)*/
+  }
